@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/*Header*/
+.header {
+ 	padding-top:30px;
+  /*Keeps Nav from hitting head on ceiling*/
+}
+.header h1 {
+ 	/*Style*/
+  font-size:20px;
+}
+
+.header a {
+ 	/*Style*/
+  color:black;
+}
+/*Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  padding: 120px 0px;
+}
+
+.jumbotron span {
+ 	color:#ffc200; 
+}
+
+.jumbotron h1 {
+ 	text-shadow:none; 
+}
+
+/*Banner*/
+.banner {
+ 	background-color:#333;
+  text-align:center;
+  padding:20px;
+}
+
+.banner h1, p {
+ 	color:white; 
+}
+
+/*Cards*/
+.cards {
+ 	background-color:#FFC200; 
+}
+
+.cards h2 {
+  margin:80px 0px;
+  text-align:center;
+}
+
+.cards img {
+ 	margin-bottom:30px; 
+}
+
+/*Footer*/
+.footer {
+ 	background-color:black; 
+}
+
+.footer h3 {
+ 	color:white; 
+}
+
+.footer img {
+  width:24px;
+  margin: 5px;
+}
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
